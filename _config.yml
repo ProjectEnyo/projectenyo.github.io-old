@@ -1,11 +1,11 @@
-title: Overcast Community
+title: Project Enyo
 description: >-
-  The awesome server that lets you play large varieties of Minecraft PvP
+  The awesome server that lets you play classic Minecraft PvP
   anytime, anywhere.
-url: https://oc.tc
-server_address: play.oc.tc
+url: https://projectenyo.eu
+server_address: pvp.projectenyo.eu
 
-google_analytics: UA-154852120-1
+google_analytics: UA-174476275-1
 
 sass:
   sass_dir: assets/css

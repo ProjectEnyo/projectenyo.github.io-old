@@ -1,97 +1,13 @@
 administrators:
-  color: "#f89406"
+  color: "#FFAA00"
   members:
     - username: Brottweiler
       id: 6968cbde-c2b7-479c-a8da-f33f109f013b
-      role: Moderation & Support
+      role: Sysadmin
       links:
         email: brott@oc.tc
-    - username: ElectroidFilms
-      id: dad8b95c-cf6a-44df-982e-8c8dd70201e0
-      role: SysAdmin & Development
-    - username: applenick
-      id: f54a1b17-3167-4162-948a-9c95d65a18a5
-      role: SysAdmin & Development
-    - username: Crazy_
-      id: a9f11454-beac-4cc3-a138-1780802c8794
-      role: Map Development
-moderators:
-  color: "#ff2200"
-  members:
     - username: Noel
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
-    - username: Pablete1234
-      id: e82603df-417d-4a95-bd1f-1720648be0b4
-      role: Developer
-    - username: Pibo
-      id: 65ffe1e4-d09e-4835-85d3-bfa6972b8a25
-      role: Marketing
-    - username: Holdfast33
-      id: f41870ba-9aff-4756-aec7-6148172e63df
-    - username: luisgbr99
-      id: 3159ff86-76e2-453c-9ade-5e2ba9918396
-    - username: Jexel
-      id: 9225421c-3c09-4d97-bb80-f6a77c1f360b
-    - username: Kiyara
-      id: 15c75bdd-005f-40f6-9e20-1ecf48bb51e5
-    - username: OCNs_OMEN
-      id: b5967591-14fc-421f-a5e2-931498e10fb8
-    - username: KingOfSquares
-      id: 8af5859a-1d6e-4fbd-ae5f-4c63ff630fa4
-    - username: Strangey
-      id: 621b2aa8-4e5f-4ed8-bd36-0ae2f8952a06
-      role: Map Developer
-    - username: Pugzy
-      id: 75fd93dd-8e48-4698-81a2-97dae2ec5b5f
-      role: Map Developer
-    - username: Diamyx
-      id: f70b7a8f-93b2-480f-9d54-88e21485a042
-    - username: Joel_
-      id: 5918ee40-462b-4c84-ba32-b9e71761a8ff
-    - username: CoWinkKeyDinkInc
-      id: 5c79d2c9-a4f0-4343-a84b-e1720f13009b
-    - username: wylt
-      id: d71152ca-187d-43c4-9901-ba001606c655
-    - username: Engineer0711
-      id: 6d71d977-1c55-4bca-b20a-a84af77fe1af
-    - username: 2000thehecf1
-      id: 408267c4-c749-4312-8e28-8a29113c1329
-    - username: byRobo
-      id: d1e3251c-def5-4328-a7e9-09335934d316
-    - username: BGMP
-      id: 2cef6d05-ec9a-44b3-bedc-53359c68ae65
-    - username: Deoz
-      id: a29d7ed5-1ca3-4953-a102-e874b8e6c83e
-    - username: ocktick
-      id: 18ae0b62-8015-43b9-9409-f59246332bb4
-    - username: Arzanex
-      id: 62b6d081-8df8-4c09-aa15-71141ca7df76
-    - username: Winarve
-      id: 9909505b-1f0f-4af1-ae21-afbee92427ce
-    - username: Kenner_
-      id: 3b42b73c-61b5-4783-a853-d354e8272b56
-    - username: ThoughtfulTurtle
-      id: 97e1e528-27d4-4768-b3e8-7e93b60805b8
-    - username: Civer
-      id: 3b862d71-fd84-4442-9831-ed291270f675
-    - username: Qixit
-      id: 10c1b730-49b9-4f75-9212-91facc371477
-      role: Map Developer
-    - username: Picajoluna
-      id: e60895f7-f208-4a29-abcb-7c7fdfa8b2e0
-    - username: otherkris
-      id: 9923dd17-577e-4e9b-b9fe-46c8fb3aa962
-    - username: DarKrow_
-      id: c837bed6-bd3e-4e4b-8217-f093d8b35452
-    - username: Brumei
-      id: af9c1942-af66-42d1-89f9-9b677c281e03
-    - username: _DISTRACTION_
-      id: f876b863-1ccd-4ae2-acad-8a09e2209e81
-    - username: Merlijn
-      id: 9c0cd42f-fd79-45ff-b123-7da044ab2a0c
-    - username: Campeh
-      id: 61f8e9dd-62ab-453a-b7ef-83ce8a383fe8
-      role: Event
-    - username: Nixani
-      id: 2958ea4c-3501-404e-88cc-12e8632f68cc
-      role: Map Developer
+      # moderators:
+      #   color: "#FF5555"
+      #   members:
