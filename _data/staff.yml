@@ -6,6 +6,8 @@ administrators:
       role: Sysadmin
       links:
         email: brott@oc.tc
+        twitter: Brottsie
+        github: Brottweiler
     - username: Noel
       id: 1696b5e2-2a7d-4dd0-a67e-45ebdd19359c
       # moderators:
