@@ -40,13 +40,13 @@
         return "starting"
       case 'c':
         return "finished"
-      case '7':
-          return "idle";
+      default:
+        return "idle";
     }
   }
 
   function setVersionSupport(){
-    $('#data-version-support').html(`1.7 - 1.16.2`);
+    $('#data-version-support').html(`1.7.2 - 1.16.3`);
   }
 
   function setPlayerCount(onlinePlayerCount, maxPlayerCount) {
