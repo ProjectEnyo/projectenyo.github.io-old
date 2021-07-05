@@ -1,27 +1,73 @@
 ---
 title: Home
 permalink: /
-redirect_to: play/
 ---
 
 {% include image-slider.html %}
 
-<div class="container">
-  <div class="row text-center">
+<div class="container my-4" id="play">
+  <div class="row">
     <div class="col-md-4">
-      <h2>Classic</h2>
-      <hr>
-      <p>On {{ site.title }} you can play a variety of classic Minecraft PvP maps. Test your skills on different types of maps with unique objectives!</p>
+      <div class="card connect">
+        <div class="card-body">
+          <h4 class="card-title text-center">Connect</h4>
+          <hr>
+          <div class="row">
+            <div class="col-md-6">
+              <input class="btn btn-primary btn-lg"
+                     data-toggle="tooltip"
+                     data-placement="top"
+                     title="Click to highlight"
+                     onclick="this.select();"
+                     readonly=""
+                     type="text"
+                     value="{{ site.server_address }}">
+            </div>
+            <div class="col-md-6 mt-2 mt-md-0">
+              <div>
+                <b>Players:</b>
+                <span id="data-player-count">?</span>
+              </div>
+              <div>
+                <b>Version:</b>
+                <span class="version-support" id="data-version-support">?</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h2>Competiton</h2>
-      <hr>
-      <p>{{ site.title }} hosts team PvP matches. No match is another alike, and there's always someone new to destroy!</p>
-    </div>
-    <div class="col-md-4">
-      <h2>Plugins</h2>
-      <hr>
-	  <p>{{ site.title }} uses the awesome <a href="https://pgm.dev/" target="_blank">PGM</a> plugin to host PvP matches!</p>
+    <div class="col mt-4 mt-md-0">
+      <div class="row">
+        <div class="col-sm-12 col-md-5 map-image">
+          <img src="" id="data-current-map-image" onerror="this.src = '{{ site.url }}/assets/img/fallback.png'">
+        </div>
+        <div class="col-sm-12 col-md-7 mt-2 mt-md-0">
+          <h2>
+            <small id="data-match-state" class="match-state" data-toggle="tooltip" data-placement="top"></small>
+            <span id="data-current-map-name"></span>
+          </h2>
+          <span id="data-current-map-tags"></span>
+          <div class="online-players">
+            <span id="data-online-player-sample"></span>
+            <div>
+              <span id="data-more-player-count"></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+<script src="{{ site.url }}/assets/js/play.js"></script>
+<script type="text/javascript">
+  const input = {
+    serverAddress: '{{ site.server_address }}',
+    apiUrl: '{{ site.data.providers.status_api }}',
+    mapImagesUrl: '{{ site.data.providers.map_images }}',
+    playerAvatarsUrl: '{{ site.data.providers.player_avatars }}'
+  };
+
+  setInterval(getServerStatus(input), 60 * 1000);
+</script>
